@@ -1,50 +1,55 @@
 # 🐝 VeriBee
 
-VeriBee is a decentralized platform that bridges the gap between researchers and real participants — ensuring verified data, real insights, and fair rewards for all.  
-Powered by ⚡EduChain and 🆔 OCID, we are building the future of research participation using blockchain, smart contracts, and AI.
+VeriBee is a decentralized platform that bridges the gap between researchers and real participants — ensuring verified data, real insights, and fair rewards for all.
 
-📄 Smart Contract Address:  
-0x25cfe5d4855dc3051e3d6ff9347ba20f88c1baa0
+We are building the future of research participation using blockchain, smart contracts, and AI.
 
 ---
 
-## 🚀 Key Features
+## 📄 Smart Contract
 
-- ✅ Verified form submissions via AI spam checks  
-- 🔗 Web3 login using Wallet + Socials 
-- 🧪 Researcher Dashboard with customizable notifications (subscription-based)  
-- 🎯 Participant Portal to discover research and earn mini-tokens  
-- 🔍 Multi-model fraud detection (subscription bonus)  
-- 📊 Post-research AI Analysis support for premium users  
-- 💰 Incentivized participation with real value instead of paper forms  
+**Address:**  
+`0x115b749F040bE10E8Dc777848C5F46cf1975945E`
+
+---
+
+## 🚀 Features
+
+- ✅ **Verified form submissions:** AI-driven spam & scam detection  
+- 🔗 **Web3 login:** Supports wallet and social logins  
+- 🧪 **Researcher Dashboard:** Customizable notifications & study management (subscription-based)  
+- 🎯 **Participant Portal:** Discover research opportunities & earn mini-tokens  
+- 🔍 **Fraud detection:** Multi-model checks (bonus for subscribers)  
+- 📊 **AI Analysis:** Post-research insights for premium users  
+- 💰 **Incentivized participation:** Real rewards, no more paper forms  
 
 ---
 
 ## 🧠 Tech Stack
 
-| Layer         | Tech / Tools |
-|---------------|--------------|
-| 🌐 Frontend    | React.js + Next.js + TailwindCSS + Framer Motion |
-| 🔐 Auth & Identity |  (Open Credential Identity), MetaMask, Social Logins |
-| 📦 Backend     | Node.js + Express |
-| ⚙ Smart Contracts | Solidity (deployed on EduChain) |
-| 📉 AI Filters  | Python ML models for spam/scam detection |
-| ☁ Infra       | IPFS / EduChain Nodes + REST API |
-| 🛠 Dev Tools   | Hardhat, Ethers.js, Alchemy, Postman, GitHub |
+| Layer               | Tech / Tools                                             |
+|---------------------|----------------------------------------------------------|
+| 🌐 **Frontend**      | React.js + Next.js + TailwindCSS + Framer Motion        |
+| 🔐 **Auth & Identity** | MetaMask, Social Logins                                |
+| 📦 **Backend**       | Node.js + Express                                       |
+| ⚙ **Smart Contracts**| Solidity                                                |
+| 📉 **AI Filters**    | Python ML models for spam/scam detection               |
+| ☁ **Infrastructure** | IPFS + REST API                                         |
+| 🛠 **Dev Tools**     | Hardhat, Ethers.js, Alchemy, Postman, GitHub            |
 
 ---
 
 ## 📚 How It Works
 
-1. Researchers post a study form on VeriBee 🧪  
-2. Verified participants get notified (subscription-based) 📬  
-3. Participants fill the form & get rewarded with mini-tokens 🎁  
-4. Responses are filtered via AI for quality control 🧠  
-5. Researchers receive clean data & optional insights dashboard 📊  
+1. **Researchers** post study forms on VeriBee 🧪  
+2. **Participants** get notified (subscription-based) 📬  
+3. **Participants** fill the forms & earn mini-tokens 🎁  
+4. **AI filters** clean responses for spam & low-quality data 🧠  
+5. **Researchers** access verified data & optional AI-driven insights 📊  
 
 ---
 
-## 🌍 Join the Hive!
+## 🌍 Join the Hive
 
 We’re redefining research — one verified form at a time.  
 Say goodbye to spam, wasted forms, and fake responses.  
@@ -52,5 +57,14 @@ Say hello to transparent, community-driven, decentralized research. 🐝💛
 
 ---
 
-👉 Powered by: [EduChain](https://educhain.network) | [OCID](https://ocid.io)  
-📬 Contact us: team@veribee.xyz
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## 📬 Contact
+
+**Email:** team@veribee.xyz  
+**Website:** [veribee.xyz](https://veribee.xyz)
+
