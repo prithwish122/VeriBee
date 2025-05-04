@@ -11,8 +11,7 @@ We are building the future of research participation using blockchain, smart con
 **Address:**  
 `0x115b749F040bE10E8Dc777848C5F46cf1975945E`
 
-[![Verify on Block Explorer](https://pharosscan.xyz/tx/0x115b749F040bE10E8Dc777848C5F46cf1975945E)
-
+**Explorer Link:** [View on Pharosscan](https://pharosscan.xyz/address/0x115b749F040bE10E8Dc777848C5F46cf1975945E)
 ---
 
 ## 🚀 Features
