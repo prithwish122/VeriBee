@@ -1,0 +1,702 @@
+/* Basic Reset */
+body, h1, h2, h3, p, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff; /* White background */
+    color: #333;
+}
+
+header {
+    background-color: #ffcc00; /* Vibrant yellow */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo img {
+    height: 60px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.introduction {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.introduction h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.introduction p {
+    font-size: 1.2em;
+}
+
+.food-destinations {
+    text-align: center;
+}
+
+.food-destinations h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.destination {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.destination img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.destination:hover {
+    transform: scale(1.05); /* Slightly enlarge the item */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Add shadow for highlighting */
+}
+
+.destination:hover img {
+    filter: blur(5px); /* Blur the image on hover */
+    transform: scale(1.1); /* Slightly enlarge the image */
+}
+
+.destination-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    opacity: 0;
+   
+}
+/* Basic Reset */
+body, h1, h2, h3, p, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background-color: #ffcc00; /* Yellow for a vibrant, food-related feel */
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo img {
+    height: 60px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.book-restaurant {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book-restaurant h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+}
+
+.book-restaurant p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+.book-restaurant form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.book-restaurant label {
+    font-weight: bold;
+}
+
+.book-restaurant input, .book-restaurant select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.book-restaurant button {
+    padding: 10px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.book-restaurant button:hover {
+    background-color: #e6b800;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+/* Basic Reset */
+body, h1, h2, h3, p, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff; /* White background */
+    color: #333;
+}
+
+header {
+    background-color: #ffcc00; /* Vibrant yellow */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo img {
+    height: 60px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    background-color: #ffcc00; /* Vibrant yellow */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.top-foods {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.food-item {
+    position: relative;
+    width: 250px;
+    height: 250px; /* Ensures square shape */
+    overflow: hidden;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.food-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s;
+}
+
+.food-item:hover {
+    transform: scale(1.05); /* Slightly enlarge the item */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Add shadow for highlighting */
+}
+
+.food-item:hover .food-info {
+    opacity: 1;
+    transform: translateY(0); /* Reset the transform on hover */
+}
+
+.food-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    background: rgba(0, 0, 0, 0); /* Fully transparent background */
+    backdrop-filter: blur(4px); /* Optional: Add a blur effect to enhance readability */
+    transition: opacity 0.3s, transform 0.3s;
+    opacity: 0; /* Hide by default */
+    transform: translateY(20px); /* Position it slightly off-screen initially */
+}
+
+.food-info h3, .food-info p {
+    margin: 0;
+    transition: color 0.3s, text-decoration-color 0.3s;
+}
+
+.food-info h3 {
+    font-size: 1.2em;
+    text-decoration: underline;
+    text-decoration-color: #ffcc00; /* Yellow underline */
+    text-decoration-thickness: 2px; /* Slightly thicker underline */
+}
+
+.food-info p {
+    font-size: 0.9em;
+}
+
+.food-link {
+    text-decoration: none;
+    color: #d8c6c6; /* Default text color */
+}
+
+.food-link:hover h3 {
+    color: #000; /* Change text color to black on hover */
+}
+
+.food-link:hover p {
+    color: #000; /* Change description color to black on hover */
+}
+
+.food-link:hover {
+    text-decoration-color: #ffcc00; /* Yellow underline on hover */
+}
+
+footer {
+    background-color: #ffcc00; /* Consistent with header */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Basic Reset */
+body, h1, h2, h3, p, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff; /* White background */
+    color: #333;
+}
+
+header {
+    background-color: #ffcc00; /* Vibrant yellow */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo img {
+    height: 60px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.introduction {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.introduction h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.introduction p {
+    font-size: 1.2em;
+}
+
+.food-destinations {
+    text-align: center;
+}
+
+.food-destinations h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.destination {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.destination img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.destination:hover {
+    transform: scale(1.05); /* Slightly enlarge the item */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Add shadow for highlighting */
+}
+
+.destination:hover img {
+    filter: blur(5px); /* Blur the image on hover */
+    transform: scale(1.1); /* Slightly enlarge the image */
+}
+
+.destination-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    opacity: 0;
+   
+}
+
+/* Basic Reset */
+body, h1, h2, h3, p, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff; /* White background */
+    color: #333333;
+    
+}
+
+header {
+    background-color: #ffcc00; /* Vibrant yellow */
+    color: #000000;
+    padding: 30px;
+    text-align: center;
+
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo img {
+    height: 60px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.introduction {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #ffcc00;
+    display: relative;
+    padding-bottom: 50px;
+}
+
+.introduction h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.introduction p {
+    font-size: 1.2em;
+}
+
+.food-destinations {
+    text-align: center;
+    background-color: #dadada;
+
+}
+
+.food-destinations h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.destination {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.destination img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: filter 0.3s, transform 0.3s;
+}
+
+.destination:hover {
+    transform: scale(1.05); /* Slightly enlarge the item */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Add shadow for highlighting */
+}
+
+.destination:hover img {
+    filter: blur(5px); /* Blur the image on hover */
+    transform: scale(1.1); /* Slightly enlarge the image */
+}
+
+.destination-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.3s;
+    background-color: rgba(0, 0, 0, 0.5); /* Slightly darken background for readability */
+    padding: 10px;
+    border-radius: 8px;
+    width: 80%; /* Ensure the text area fits nicely */
+}
+
+.destination-info h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    text-decoration-color: #ffcc00; /* Yellow underline */
+}
+
+.destination-info p {
+    font-size: 1em;
+}
+
+.destination:hover .destination-info {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1); /* Make the text appear */
+}
+
+.destination a {
+    text-decoration: none;
+}
+
+.destination a:hover .destination-info h3 {
+    color: #ffcc00; /* Change text color to yellow on hover */
+}
+
+.destination a:hover .destination-info p {
+    color: #ffcc00; /* Change description color to yellow on hover */
+}
+
+/* Button Styling */
+#connect-wallet {
+    background-color: #313242; /* Vibrant yellow */
+    color: #d7d7d7;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    position: absolute; /* Adjust positioning as needed */
+    top: 20px; /* Adjust position */
+    right: 20px; /* Adjust position */
+}
+
+#connect-wallet:hover {
+    background-color: #313242; /* Slightly darker yellow */
+    color: #ded4d4;
+}
+
+/* Style for the Withdraw Wallet button */
+#withdraw-wallet {
+    background-color: #313242; /* Blue background */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    position: absolute; /* Position it absolutely */
+    top: 60px; /* Adjust based on the height of the Connect Wallet button and desired spacing */
+    right: 20px; /* Aligns the button to the right */
+    text-decoration: none;
+}
+
+#withdraw-wallet:hover {
+    background-color: #3941e0; /* Light blue background on hover */
+    color: #fff; /* White text on hover */
+}

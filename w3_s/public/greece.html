@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Greek Food Recommendations</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="logo">
+        <img src="logo.png" alt="Food Tour Logo" />
+        <h1>Greek Food Tour</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="book-restaurant.html">Book a Restaurant</a></li>
+        </ul>
+      </nav>
+      <button id="connect-wallet">Connect Wallet</button>
+      <button id="withdraw-wallet">Withdraw Wallet</button>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <section class="hero">
+        <h2>Explore Greece's Top 5 Culinary Delights</h2>
+        <p>
+          Indulge in the best of Greek cuisine with our top 5 recommendations.
+          Click on each dish to discover more!
+        </p>
+      </section>
+
+      <section class="top-foods">
+        <div
+          class="food-item"
+          data-text="Moussaka"
+          data-description="Layered dish with eggplant, meat, and béchamel sauce."
+          data-link="moussaka-review.html"
+        >
+          <img src="moussaka.jpg" alt="Moussaka" />
+        </div>
+        <div
+          class="food-item"
+          data-text="Souvlaki"
+          data-description="Grilled meat skewers, a Greek favorite."
+          data-link="souvlaki-review.html"
+        >
+          <img src="souvlaki.jpg" alt="Souvlaki" />
+        </div>
+        <div
+          class="food-item"
+          data-text="Spanakopita"
+          data-description="Savory spinach pie with flaky phyllo dough."
+          data-link="spanakopita-review.html"
+        >
+          <img src="spanakopita.jpg" alt="Spanakopita" />
+        </div>
+        <div
+          class="food-item"
+          data-text="Tzatziki"
+          data-description="Creamy yogurt and cucumber dip."
+          data-link="tzatziki-review.html"
+        >
+          <img src="tzatziki.jpg" alt="Tzatziki" />
+        </div>
+        <div
+          class="food-item"
+          data-text="Baklava"
+          data-description="Sweet pastry made with layers of phyllo and nuts."
+          data-link="baklava-review.html"
+        >
+          <img src="baklava.jpg" alt="Baklava" />
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Greek Food Tour. All rights reserved.</p>
+    </footer>
+
+    <script src="scriptss.js"></script>
+  </body>
+</html>

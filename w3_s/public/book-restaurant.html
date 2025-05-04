@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book a Restaurant - Food Tour</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="logo">
+        <img src="logo.png" alt="Food Tour Logo" />
+        <h1>Food Tour</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="book-restaurant.html">Book a Restaurant</a></li>
+        </ul>
+      </nav>
+      <button id="connect-wallet">Connect Wallet</button>
+      <button id="withdraw-wallet">Withdraw Wallet</button>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Book a Restaurant Section -->
+      <section class="book-restaurant">
+        <h2>Book a Restaurant</h2>
+        <p>
+          Looking to enjoy the best cuisine? Book a table at one of our
+          recommended restaurants in Europe. Fill out the form below to get
+          started.
+        </p>
+        <form action="submit-booking.html" method="post">
+          <label for="country">Choose a Country:</label>
+          <select id="country" name="country" required>
+            <option value="italy">Italy</option>
+            <option value="france">France</option>
+            <option value="spain">Spain</option>
+            <option value="greece">Greece</option>
+            <option value="portugal">Portugal</option>
+          </select>
+
+          <label for="restaurant">Restaurant Name:</label>
+          <input type="text" id="restaurant" name="restaurant" required />
+
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" required />
+
+          <label for="time">Time:</label>
+          <input type="time" id="time" name="time" required />
+
+          <label for="people">Number of People:</label>
+          <input type="number" id="people" name="people" min="1" required />
+
+          <label for="contact">Contact Email:</label>
+          <input type="email" id="contact" name="contact" required />
+
+          <button type="submit">Book Now</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Food Tour. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
